@@ -72,3 +72,17 @@ h3 {
   margin: 30px 15px 15px 15px;
   line-height: 1.5;
 }
+.rrss-icons {
+  color: #099d8d;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 35%;
+  top: -20px;
+  bottom: 10px;
+}
+
+.icon a {
+  color: #099d8d;
+}
