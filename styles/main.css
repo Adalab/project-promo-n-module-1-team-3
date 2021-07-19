@@ -9,10 +9,7 @@ h3 {
   font-size: 20px;
   text-align: center;
 }
-/* .container-image {
-  display: inline-block;
-  transform: translate();
-} */
+
 .image-adalaber {
   width: 180px;
   height: 180px;
@@ -40,8 +37,6 @@ h3 {
   font-weight: 500;
 }
 
-.container-adalaber {
-}
 .container-text {
   display: flex;
   justify-content: center;
