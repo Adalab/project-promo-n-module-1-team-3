@@ -1,0 +1,74 @@
+h2 {
+  font-family: Rubik Mediana, sans-serif;
+  font-size: 24px;
+  color: #099d8d;
+  text-align: center;
+}
+h3 {
+  font-family: Rubik Mediana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+/* .container-image {
+  height: 190px;
+} */
+.image-adalaber {
+  display: inline-block;
+  width: 100%;
+  box-sizing: content-box;
+  margin: 15px auto 15px auto;
+
+  max-width: 180px;
+  max-height: 180px;
+  border: solid 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  /* position: relative;
+  left: 30px; */
+}
+.container-adalabers {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+
+  padding: 10px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+.whoweare {
+  background: white;
+  font-family: OpenSans-Regular, sans-serif;
+  font-size: 16px;
+}
+
+.we-are {
+  text-transform: uppercase;
+  margin-top: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+}
+
+.container-text {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.wwa-parrafo {
+  color: #54585a;
+  text-align: center;
+  font-size: 16px;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin: 30px 15px 15px 15px;
+  line-height: 1.5;
+}
