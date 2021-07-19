@@ -1,33 +1,35 @@
 .footer {
-    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 250px;
-    margin: 2225px 0 0;
-    padding: 30px 74px 45px;
+    margin: 15px;
     border: solid 1px #b8b8b9;
     background-color: white;
+    box-sizing: content-box;
 }
 
 .nombredelgrupofooter {
-    width: 172px;
+    width: 100%;
     height: 20px;
-    margin: 0 0 20px;
-    font-family: OpenSans;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.43;
-    letter-spacing: normal;
-    text-align: center;
     color: #b8b8b9;
 }
 
 .equipofooter {
-    width: 118px;
+    width: 100%;
     height: 60px;
-    margin: 20px 29px 30px;
-    opacity: 0.75;
-    font-family: OpenSans;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 600;
     font-stretch: normal;
@@ -42,5 +44,6 @@
 .logoadalab {
     width: 115.9px;
     height: 45px;
-    margin: 30px 28.1px 0 28px;
+    margin-top: 30px;
+    margin-bottom: 45px;
 }
