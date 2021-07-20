@@ -34,6 +34,7 @@ header {
   background-color: aqua;
   font-weight: bold;
   display: flex;
+  padding-left: 10px;
   position: relative;
   height: 45px;
   padding-right: 17px;
