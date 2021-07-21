@@ -176,20 +176,6 @@ header {
 
 /* <-----------WHO WE ARE---------------> */
 
-h2 {
-  font-family: Rubik Mediana, sans-serif;
-  font-size: 24px;
-  color: #099d8d;
-  text-align: center;
-  padding-top: 50px;
-}
-
-h3 {
-  font-family: Rubik Mediana, sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-
 .image-adalaber {
   width: 100%;
   margin: 15px auto 15px auto;
@@ -207,6 +193,9 @@ h3 {
 }
 
 .name {
+  font-family: Rubik Mediana, sans-serif;
+  font-size: 20px;
+  text-align: center;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -219,14 +208,23 @@ h3 {
 }
 
 .we-are {
+  font-family: Rubik Mediana, sans-serif;
+  font-size: 24px;
+  color: #099d8d;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
   text-transform: uppercase;
   margin-top: 30px;
 }
 
 .container-text {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: -20px;
+  height: auto;
 }
 
 .wwa-parrafo {
@@ -234,7 +232,7 @@ h3 {
   text-align: center;
   font-size: 16px;
   width: 300px;
-  height: 200px;
+  height: auto;
   margin: 30px 15px 15px 15px;
   line-height: 1.5;
 }
@@ -244,10 +242,8 @@ h3 {
   width: 150px;
   display: flex;
   justify-content: space-between;
-  position: relative;
-  left: 35%;
-  top: -20px;
-  bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .icon a {
