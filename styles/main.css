@@ -96,8 +96,8 @@ header {
   background-color: white;
   position: relative;
   margin: 0%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   align-items: center;
   text-align: center;
   box-sizing: border-box;
@@ -129,6 +129,7 @@ header {
   position: absolute;
   left: 45%;
   bottom: -67px;
+  transform: translateY(-50);
   transform: rotate(45deg);
 }
 
