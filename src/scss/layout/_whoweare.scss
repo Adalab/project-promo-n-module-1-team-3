@@ -1,0 +1,77 @@
+/* <-----------WHO WE ARE---------------> */
+
+.image-adalaber {
+  width: 100%;
+  margin: 15px auto 15px auto;
+  max-width: 180px;
+  max-height: 180px;
+  border: solid 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.container-adalabers {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.name {
+  font-family: Rubik Mediana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.whoweare {
+  background: white;
+  font-family: OpenSans-Regular, sans-serif;
+  font-size: 16px;
+}
+
+.we-are {
+  font-family: Rubik Mediana, sans-serif;
+  font-size: 24px;
+  color: #099d8d;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  height: auto;
+}
+
+.wwa-parrafo {
+  color: #54585a;
+  text-align: center;
+  font-size: 16px;
+  width: 300px;
+  height: auto;
+  margin: 30px 15px 15px 15px;
+  line-height: 1.5;
+}
+
+.rrss-icons {
+  color: #099d8d;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.icon {
+  a {
+    color: #099d8d;
+  }
+}
