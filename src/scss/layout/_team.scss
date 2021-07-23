@@ -105,6 +105,7 @@
   .equipo {
     padding-left: 45px;
     padding-right: 45px;
+    padding-top: 45px;
   }
 
   .debilidades-titulo {
@@ -117,5 +118,11 @@
   .debilidades {
     width: 50%;
     margin-left: 15px;
+  }
+
+  .frase-presentacion {
+    position: relative;
+    bottom: 98px;
+    left: -185px;
   }
 }
