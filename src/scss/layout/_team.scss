@@ -96,4 +96,33 @@
   margin-top: 45px;
 }
 
-/*************************************************************fin de equipo fortaleza y debilidades seccion gaby***************/
+@media (min-width: 768px) {
+  .fortalezas-debilidades {
+    display: flex;
+    flex-direction: row;
+    padding: 55px 45px;
+  }
+  .equipo {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+  }
+
+  .debilidades-titulo {
+    margin: 0;
+  }
+  .fortalezas {
+    width: 50%;
+    margin-right: 15px;
+  }
+  .debilidades {
+    width: 50%;
+    margin-left: 15px;
+  }
+
+  .frase-presentacion {
+    position: relative;
+    bottom: 98px;
+    left: -185px;
+  }
+}
