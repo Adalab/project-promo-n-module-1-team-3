@@ -20,10 +20,6 @@
 
 header {
   width: 100%;
-  height: 304px;
-  box-sizing: content-box;
-  background-color: aqua;
-  background-color: transpagrent;
 }
 
 .nav1 {
@@ -31,9 +27,6 @@ header {
   font-weight: bold;
   display: flex;
   padding-left: 10px;
-  position: relative;
-  height: 45px;
-  padding-right: 17px;
 }
 
 .menu {
@@ -49,15 +42,51 @@ header {
 
 .imagen1 {
   width: 100%;
-  max-height: 212px;
-  max-width: 595px;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .hero {
-  width: 100%;
-  max-width: 600px;
-  max-height: 421px;
-  overflow: hidden;
   position: relative;
   z-index: 998;
+}
+@media all and (min-width: 768px) {
+  .hero {
+    display: flex;
+    width: 100vw;
+  }
+  .title {
+    justify-content: flex-start;
+    padding-left: 45px;
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width: 160px;
+    display: inline;
+  }
+  .nav1 {
+    background-color: #099d8d;
+    display: inline-block;
+  }
+  .menu {
+    background-color: #099d8d;
+    padding-left: 16vw;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .itemMenu {
+    font-size: 15px;
+    line-height: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  header {
+    background-color: #099d8d;
+  }
+}
+@media all and (min-width: 1024px) {
+  .menu {
+    padding-left: 25vw;
+  }
 }
