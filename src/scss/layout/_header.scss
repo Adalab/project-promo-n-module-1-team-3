@@ -6,7 +6,6 @@
   font-weight: bold;
   text-transform: uppercase;
   width: 100%;
-
   display: flex;
   justify-content: center;
   padding-top: 16px;
@@ -29,7 +28,6 @@ header {
 
 .nav1 {
   background-color: aqua;
-  opacity: 0.5;
   font-weight: bold;
   display: flex;
   padding-left: 10px;
@@ -60,4 +58,6 @@ header {
   overflow: hidden;
   position: relative;
   z-index: 998;
+}
+@media and all {
 }
