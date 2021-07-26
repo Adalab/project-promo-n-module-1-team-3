@@ -26,21 +26,27 @@
   <form action="/signup" method="post">
     <fieldset class="formulario">
       <!--Nombre completo-->
-      <label for="fullName">Nombre completo</label>
-      <input class="formulario__items" placeholder="Nombre..." type="text" id="fullName" name="fullName" />
+      <label for="fullName" class="formulario__label">Nombre completo
+        <input class="formulario__label--items" placeholder="Nombre..." type="text" id="fullName"
+          name="fullName" /></label>
+
 
       <!--correo-->
-      <label for="emailAddress">Email</label>
-      <input class="formulario__items" placeholder="nombre@gmail.com" type="email" id="emailAddress"
-        name="emailAddress" />
+      <label for="emailAddress" class="formulario__label">Email
+        <input class="formulario__label--items" placeholder="nombre@gmail.com" type="email" id="emailAddress"
+          name="emailAddress" /></label>
+
       <!--telefono-->
-      <label for="telephone">Teléfono</label>
-      <input class="formulario__items" placeholder="Ej. 123456789" type="tel" id="telephone" name="telephone" />
+      <label for="telephone" class="formulario__label">Teléfono
+        <input class="formulario__label--items" placeholder="Ej. 123456789" type="tel" id="telephone"
+          name="telephone" /></label>
+
 
       <!--mensaje-->
-      <label for="comments">Comentarios:</label>
-      <textarea class="formulario__items" placeholder="Qué necesitas?" id="comments" name="comments" rows="8"
-        cols="80"></textarea>
+      <label for="comments" class="formulario__label">Comentarios:
+        <textarea class="formulario__label--items" placeholder="Qué necesitas?" id="comments" name="comments" rows="8"
+          cols="80"></textarea></label>
+
 
       <input type="submit" value="Enviar" />
       <!--boton-->
