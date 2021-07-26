@@ -10,8 +10,8 @@
     Enviar -->
 <main>
   <!--SECCION CONTACTO-->
-  <section>
-    <h1>Contacto</h1>
+  <section class="contact">
+    <h2>Contacto</h2>
 
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, rem,
@@ -19,7 +19,7 @@
       deleniti magnam. Totam beatae consequatur saepe reprehenderit, magnam modi
       soluta.
     </p>
-    <p>Todos los campos marcados con * son obligatorios</p>
+    <small>Todos los campos marcados con * son obligatorios</small>
   </section>
 
   <!--SECCION FORMULARIO-->
@@ -27,43 +27,20 @@
     <fieldset class="formulario">
       <!--Nombre completo-->
       <label for="fullName">Nombre completo</label>
-      <input
-        class="formulario__items"
-        placeholder="Nombre..."
-        type="text"
-        id="fullName"
-        name="fullName"
-      />
+      <input class="formulario__items" placeholder="Nombre..." type="text" id="fullName" name="fullName" />
 
       <!--correo-->
       <label for="emailAddress">Email</label>
-      <input
-        class="formulario__items"
-        placeholder="nombre@gmail.com"
-        type="email"
-        id="emailAddress"
-        name="emailAddress"
-      />
+      <input class="formulario__items" placeholder="nombre@gmail.com" type="email" id="emailAddress"
+        name="emailAddress" />
       <!--telefono-->
       <label for="telephone">Teléfono</label>
-      <input
-        class="formulario__items"
-        placeholder="Ej. 123456789"
-        type="tel"
-        id="telephone"
-        name="telephone"
-      />
+      <input class="formulario__items" placeholder="Ej. 123456789" type="tel" id="telephone" name="telephone" />
 
       <!--mensaje-->
       <label for="comments">Comentarios:</label>
-      <textarea
-        class="formulario__items"
-        placeholder="Qué necesitas?"
-        id="comments"
-        name="comments"
-        rows="8"
-        cols="80"
-      ></textarea>
+      <textarea class="formulario__items" placeholder="Qué necesitas?" id="comments" name="comments" rows="8"
+        cols="80"></textarea>
 
       <input type="submit" value="Enviar" />
       <!--boton-->
