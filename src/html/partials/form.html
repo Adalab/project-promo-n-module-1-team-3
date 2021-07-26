@@ -9,46 +9,72 @@
     Mensaje placeholder ¿Qué necesitas?
     Enviar -->
 <main>
-  <!--SECCION CONTACTO-->
-  <section class="contact">
-    <h2>Contacto</h2>
+    <!--SECCION CONTACTO-->
+    <section class="contact">
+        <h2>Contacto</h2>
 
-    <p>
-      ¿Necesitas ponerte en contacto con nosotros?
-      Puedes rellenar nuestro formulario online para enviar un mensaje a nuestro equipo.
-      Trataremos de responder a tu mensaje en un plazo de 2 días laborables.
-    </p>
-    <small>Todos los campos marcados con * son obligatorios</small>
-  </section>
+        <p>
+            ¿Necesitas ponerte en contacto con nosotros? Puedes rellenar nuestro formulario online para enviar un mensaje a nuestro equipo. Trataremos de responder a tu mensaje en un plazo de 2 días laborables.
+        </p>
+        <small>Todos los campos marcados con <span class="asterisk">*</span> son
+			obligatorios</small
+		>
+	</section>
 
-  <!--SECCION FORMULARIO-->
-  <form action="/signup" method="post">
-    <fieldset class="formulario">
-      <!--Nombre completo-->
-      <label for="fullName" class="formulario__label">Nombre completo
-        <input class="formulario__label--items" placeholder="Nombre..." type="text" id="fullName" name="fullName"
-          required /></label>
+	<!--SECCION FORMULARIO-->
+	<form action="/signup" method="post">
+		<fieldset class="formulario">
+			<!--Nombre completo-->
+			<label for="fullName" class="formulario__label"
+				>Nombre completo <span class="asterisk">*</span>
+				<input
+					class="formulario__label--items"
+					placeholder="Nombre..."
+					type="text"
+					id="fullName"
+					name="fullName"
+					required
+			/></label>
 
+			<!--correo-->
+			<label for="emailAddress" class="formulario__label"
+				>Email <span class="asterisk">*</span>
+				<input
+					class="formulario__label--items"
+					placeholder="nombre@gmail.com"
+					type="email"
+					id="emailAddress"
+					name="emailAddress"
+					required
+			/></label>
 
-      <!--correo-->
-      <label for="emailAddress" class="formulario__label">Email
-        <input class="formulario__label--items" placeholder="nombre@gmail.com" type="email" id="emailAddress"
-          name="emailAddress" required /></label>
+			<!--telefono-->
+			<label for="telephone" class="formulario__label"
+				>Teléfono
+				<input
+					class="formulario__label--items"
+					placeholder="Ej. 123456789"
+					type="tel"
+					id="telephone"
+					name="telephone"
+			/></label>
 
-      <!--telefono-->
-      <label for="telephone" class="formulario__label">Teléfono
-        <input class="formulario__label--items" placeholder="Ej. 123456789" type="tel" id="telephone"
-          name="telephone" /></label>
+			<!--mensaje-->
+			<label for="comments" class="formulario__label"
+				>Mensaje <span class="asterisk">*</span>
+				<textarea
+					class="formulario__label--items1"
+					placeholder="¿Qué necesitas?"
+					id="comments"
+					name="comments"
+					rows="8"
+					cols="80"
+					required
+				></textarea>
+			</label>
 
-
-      <!--mensaje-->
-      <label for="comments" class="formulario__label">Mensaje
-        <textarea class="formulario__label--items1" placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8"
-          cols="80" required></textarea></label>
-
-
-      <input type="submit" value="Enviar" class="button" />
-      <!--boton-->
-    </fieldset>
-  </form>
+			<input type="submit" value="Enviar" class="button" />
+			<!--boton-->
+		</fieldset>
+	</form>
 </main>
