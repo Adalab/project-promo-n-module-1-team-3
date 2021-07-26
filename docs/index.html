@@ -1,66 +1,255 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Promo N Team 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/main.css" class="css" />
+</head>
 
-      <main class="page__main">
-          <h2>Este es el starter kit de Adalab</h2>
-          <p>Lo usamos para aprender:</p>
-          <ul class="main__list">
-              <li>Sass</li>
-              <li>HTML partials</li>
-              <li>Gulp</li>
-              <li>y muchas cosas más</li>
+<body>
+  <div class="page">
+    <header>
+      <div class="cabecera">
+        <h1 class="title"><strong>Divitis</strong></h1>
+        <nav class="nav1">
+          <ul class="menu">
+            <li class="itemMenu">
+              <a href="#team" alt="team" title="equipo1"><strong>Equipo</strong></a>
+            </li>
+            <li class="itemMenu">
+              <a href="#quienesSomos" alt="quienes" title="who"
+                ><strong>Quienes somos</strong></a
+              >
+            </li>
+            <li class="itemMenu">
+              <a href="contacto" alt="contact" title="contact"
+                ><strong>Contacto</strong></a
+              >
+            </li>
           </ul>
-          <p>Si quieres saber cúales son las rutas correctas para:</p>
-          <ul class="main__list">
-              <li>
-                  una <code class="code">&lt;img /&gt;</code> mira el fichero
-                  <code class="code">./src/html/partials/header.html</code>.
-              </li>
-              <li>
-                  y para un <code class="code">background-image</code> mira el fichero
-                  <code class="code">./src/html/scss/layout/_page.scss</code>.
-              </li>
-          </ul>
-          <p>
-              Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-              <code class="code">./src/html/index.html</code> y
-              <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos enlaces:
+        </nav>
+      </div>
+      <div class="hero">
+        <img
+          class="imagen1"
+          src="./assets/images/planes-aguila.jpg"
+          alt="imagen temporal"
+        />
+      </div>
+    </header>
+
+
+    <main>
+      <section class="equipo">
+          <div class="frase-presentacion"> "Son nuestras decisiones las que muestran quienes somos realmente, más que
+              nuestras habilidades."<br>- J. K. Rowling 
+          </div>
+
+          <h2 class="equipo-titulo" id="team">Equipo</h2>
+          <p class="equipo-parrafo">
+              La necesidad de formación es una constante, mientras que en el mundo en que vivimos es incierto, por lo
+              que hemos decidido dar un paso al frente y ser dueñas de nuestro destino. Por ello estamos deseando
+              conocer este mundo de la programación y hemos decidido
+              apostar por una formación con ADALAB. <br> </br>
+
+              Somos un equipo recién constituido para aprender a desarrollar servicios IT, estamos aprendiendo a crear
+              soluciones integrales de alto componente tecnológico en front-end, social y humano. Sentimos pasión por
+              aprender y mejorar laboralmente.
           </p>
-          <ul class="main__list">
-              <li>
-                  <a class="link__adalab" href="https://adalab.es">Adalab</a>
 
-              </li>
-              <li>
-                  <a class="" href="./more-info.html">Más info del starter kit</a>
+          <div class="cuadrado"></div>
 
-              </li>
-          </ul>
-      </main>
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </section>
 
-        </small>
-      </footer>
+      <section class="fortalezas-debilidades">
+          <div class="fortalezas">
+              <h3 class="fortalezas-titulo">Fortalezas</h3>
+              <p class="fortalezas-debilidades-parrafo">
+                  A las AdaDIv’S nos define la afán de superación, perseverancia y la curiosidad que son unas de las
+                  principales fortalezas personales y laborales. Sabemos cuándo afrontar las dificultades y no paramos
+                  hasta lograr nuestros objetivos. Tenemos recursos necesarios
+                  para recuperarnos de las caídas y seguir adelante.
+              </p>
+          </div>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+          <div class="debilidades">
+              <h3 class="debilidades-titulo">Debilidades</h3>
+              <p class="fortalezas-debilidades-parrafo">
+                  La impaciencia puede ser un rasgo común de todas. Es una debilidad porque expresa la frustración cuando
+                  los resultados no son inmediatos cuando las cosas y el código no funciona. Pero aquí estamos todas
+                  juntas para ayudarnos a mejorar como personas y
+                  poder llegar a ser buenas programadoras. 
+              </p>
+          </div>
+         
+          
+      </section>
+      <section class="whoweare">
+
+          <h2 id="quienesSomos">Quiénes somos</h2>
+
+
+          <article class="adalaber-impar">
+
+              <img src="./assets/images/foto-paloma.jpg" alt="imagen" class="image-adalaber">
+
+
+              <div class="container-text">
+                  <h3 class="name">Paloma Arévalo </h3>
+
+                  <p class="wwa-parrafo"> Paloma es una mujer en proceso de reinvención. Tras años en el sector
+                      turístico
+                      online ha decidido lanzarse al desarrollo web para tener una visión global. Curiosa y
+                      constante, no
+                      se rinde hasta encontrar la solución óptima.</p>
+                  <div class="rrss-icons">
+                      <div class="icon"><a href=""><i class="fab fa-twitter"></i></a></div>·
+                      <div class="icon">
+                          <a href="">
+                              <a href="">
+                                  <i class="fab fa-linkedin-in"></i>
+                              </a>
+                          </a>
+                      </div>·
+                      <div class="icon"><a href=""><i class="fab fa-github-alt"></i></a></div>·
+                      <div class="icon"><a href=""><i class="fas fa-envelope"></i></a>
+                      </div>
+                  </div>
+
+
+
+
+              </div>
+
+
+
+
+          </article>
+          <article class="adalaber-par">
+
+
+              <img src="./assets/images/foto-claudia.jpg" alt="imagen" class="image-adalaber">
+
+              <div class="container-text">
+                  <h3 class="name">Claudia Santana </h3>
+
+
+
+                  <p class="wwa-parrafo"> Dedicada toda su vida al negocio familiar, encontró su vocación fundando
+                      una
+                      organización juvenil. Ser programadora es el primer paso en el largo camino a recorrer para
+                      cambiar
+                      su futuro profesional y dedicarse a lo que realmente le apasiona.
+                  </p>
+                  <div class="rrss-icons">
+                      <div class="icon"><a href=""><i class="fab fa-twitter"></i></a></div>·
+                      <div class="icon">
+                          <a href="">
+                              <a href="">
+                                  <i class="fab fa-linkedin-in"></i>
+                              </a>
+                          </a>
+                      </div>·
+                      <div class="icon"><a href=""><i class="fab fa-github-alt"></i></a></div>·
+                      <div class="icon"><a href=""><i class="fas fa-envelope"></i></a>
+                      </div>
+                  </div>
+
+
+              </div>
+
+          </article>
+
+          <article class="adalaber-impar">
+              <img src="./assets/images/foto-claudia.jpg" alt="imagen" class="image-adalaber">
+
+              <div class="container-text">
+                  <h3 class="name">Gabriela Gil</h3>
+
+                  <p class="wwa-parrafo">Es paciente pero tenaz y le permite luchar por los objetivos que se
+                      marca, es persiste hasta alcanzarlo. Es observadora y esto le hace ser práctica a la hora de
+                      resolver problemas que se presentan en su día a día. Es una luchadora.
+                  </p>
+                  <div class="rrss-icons">
+                      <div class="icon"><a href=""><i class="fab fa-twitter"></i></a></div>·
+                      <div class="icon">
+                          <a href="">
+                              <a href="">
+                                  <i class="fab fa-linkedin-in"></i>
+                              </a>
+                          </a>
+                      </div>·
+                      <div class="icon"><a href=""><i class="fab fa-github-alt"></i></a></div>·
+                      <div class="icon"><a href=""><i class="fas fa-envelope"></i></a>
+                      </div>
+                  </div>
+
+
+              </div>
+
+
+          </article>
+          <article class="adalaber-par">
+              <img src="./assets/images/foto-maria.jpg" alt="imagen" class="image-adalaber">
+
+              <div class="container-text">
+                  <h3 class="name">María Molina </h3>
+
+                  <p class="wwa-parrafo"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, impedit
+                      esse asperiores blanditiis distinctio excepturi quasi ea, obcaecati, aliquam consequatur ab
+                      eaque nesciunt illum! Dicta cumque animi illo enim totam?
+                  </p>
+                  <div class="rrss-icons">
+                      <div class="icon"><a href=""><i class="fab fa-twitter"></i></a></div>·
+                      <div class="icon">
+                          <a href="">
+                              <a href="">
+                                  <i class="fab fa-linkedin-in"></i>
+                              </a>
+                          </a>
+                      </div>·
+                      <div class="icon"><a href=""><i class="fab fa-github-alt"></i></a></div>·
+                      <div class="icon"><a href=""><i class="fas fa-envelope"></i></a>
+                      </div>
+                  </div>
+
+
+              </div>
+              </div>
+          </article>
+      </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="nombrefooter">Divitis &copy;2021</p>
+            <nav class="menufooter">
+                <ul>
+                    <li class="itemfooter">
+                        <a href="#team" alt="team" title="equipo1">Equipo</a>
+                    </li>
+                    <li class="itemfooter">
+                        <a href="#quienesSomos" alt="whoweare" title="who">Quiénes somos</a>
+                    </li>
+                    <li class="itemfooter">
+                        <a href="../contact.html" alt="contacto" title="contact">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="./assets/images/logoadalab.png" alt="logo" class="logoadalab" />
+        </div>
+    </footer>
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+
 </html>

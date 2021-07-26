@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Promo N Team 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/main.css" class="css" />
+</head>
+
+<body>
+    <div class="page">
+        <header>
+          <div class="cabecera">
+            <h1 class="title"><strong>Divitis</strong></h1>
+            <nav class="nav1">
+              <ul class="menu">
+                <li class="itemMenu">
+                  <a href="#team" alt="team" title="equipo1"><strong>Equipo</strong></a>
+                </li>
+                <li class="itemMenu">
+                  <a href="#quienesSomos" alt="quienes" title="who"
+                    ><strong>Quienes somos</strong></a
+                  >
+                </li>
+                <li class="itemMenu">
+                  <a href="contacto" alt="contact" title="contact"
+                    ><strong>Contacto</strong></a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hero">
+            <img
+              class="imagen1"
+              src="./assets/images/planes-aguila.jpg"
+              alt="imagen temporal"
+            />
+          </div>
+        </header>
+
+
+
+        <!-- Contacto 
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id neque modi non dolore soluta et nesciunt suscipit vel atque minima quo minus, dicta ratione itaque earum quasi veniam magni rerum. 
+            
+            Todos los campos marcados con * son obligatorios 
+            
+            Nombre completo placeholder Nombre...
+            Email  placeholder nombre.apellidos@mail.com
+            Teléfono  placeholder Ej: 123456789
+            Mensaje placeholder ¿Qué necesitas?
+            Enviar -->
+        <main>
+          <!--SECCION CONTACTO-->
+          <section class="contact">
+            <h2>Contacto</h2>
+
+            <p>
+              ¿Necesitas ponerte en contacto con nosotros?
+              Puedes rellenar nuestro formulario online para enviar un mensaje a nuestro equipo.
+              Trataremos de responder a tu mensaje en un plazo de 2 días laborables.
+            </p>
+            <small>Todos los campos marcados con * son obligatorios</small>
+          </section>
+
+          <!--SECCION FORMULARIO-->
+          <form action="/signup" method="post">
+            <fieldset class="formulario">
+              <!--Nombre completo-->
+              <label for="fullName" class="formulario__label">Nombre completo
+                <input class="formulario__label--items" placeholder="Nombre..." type="text" id="fullName" name="fullName"
+                  required /></label>
+
+
+              <!--correo-->
+              <label for="emailAddress" class="formulario__label">Email
+                <input class="formulario__label--items" placeholder="nombre@gmail.com" type="email" id="emailAddress"
+                  name="emailAddress" required /></label>
+
+              <!--telefono-->
+              <label for="telephone" class="formulario__label">Teléfono
+                <input class="formulario__label--items" placeholder="Ej. 123456789" type="tel" id="telephone"
+                  name="telephone" /></label>
+
+
+              <!--mensaje-->
+              <label for="comments" class="formulario__label">Mensaje
+                <textarea class="formulario__label--items1" placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8"
+                  cols="80" required></textarea></label>
+
+
+              <input type="submit" value="Enviar" class="button" />
+              <!--boton-->
+            </fieldset>
+          </form>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="nombrefooter">Divitis &copy;2021</p>
+                <nav class="menufooter">
+                    <ul>
+                        <li class="itemfooter">
+                            <a href="#team" alt="team" title="equipo1">Equipo</a>
+                        </li>
+                        <li class="itemfooter">
+                            <a href="#quienesSomos" alt="whoweare" title="who">Quiénes somos</a>
+                        </li>
+                        <li class="itemfooter">
+                            <a href="../contact.html" alt="contacto" title="contact">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="./assets/images/logoadalab.png" alt="logo" class="logoadalab" />
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
