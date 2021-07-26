@@ -26,19 +26,53 @@ main {
 .formulario {
   font-size: 14px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 58px;
+  margin-bottom: 60px;
 
   &__label {
-    margin-left: 15px;
+    padding-left: 15px;
+    line-height: 0.5;
+    color: #54585a;
 
     &--items {
       display: block;
+
       height: 45px;
       width: 400px;
-      margin: 15px;
+      margin: 15px 15px 20px 0px;
+      padding-left: 15px;
+
+      &::placeholder {
+        font-family: "Open Sans", sans-serif;
+      }
     }
+    &--items1 {
+      display: block;
+      height: 105px;
+      width: 400px;
+      margin: 15px 15px 15px 0px;
+      padding-left: 15px;
+      padding-top: 11px;
+
+      &::placeholder {
+        font-family: "Open Sans", sans-serif;
+      }
+    }
+  }
+  .button {
+    background-color: #099d8d;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-color: #099d8d;
+    border: 0;
+    color: white;
+    width: 420px;
+    height: 45px;
   }
 }
