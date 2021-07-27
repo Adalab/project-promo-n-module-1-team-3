@@ -27,6 +27,16 @@ main {
     font-size: 12px;
   }
 }
+#emailAddress {
+  @media all and (min-width: 1200px) {
+    width: 395px;
+  }
+}
+#telephone {
+  @media all and (min-width: 1200px) {
+    width: 162px;
+  }
+}
 
 .formulario {
   font-size: 14px;
@@ -37,6 +47,14 @@ main {
   align-items: center;
   margin-top: 58px;
   margin-bottom: 60px;
+  @media all and (min-width: 1200px) {
+    &__etel {
+      width: 65vw;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+
   &__label {
     padding-left: 15px;
     line-height: 0.5;
@@ -54,6 +72,7 @@ main {
         width: 65vw;
       }
     }
+
     &--items1 {
       display: block;
       height: 105px;
@@ -82,6 +101,9 @@ main {
     height: 45px;
     @media all and (min-width: 768px) {
       width: 206px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 278px;
     }
   }
   &__container--button {
