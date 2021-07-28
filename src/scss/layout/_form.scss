@@ -47,6 +47,9 @@ main {
   align-items: center;
   margin-top: 58px;
   margin-bottom: 60px;
+  &__etel {
+    margin-left: 16px;
+  }
   @media all and (min-width: 1200px) {
     &__etel {
       width: 65vw;
