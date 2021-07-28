@@ -29,12 +29,12 @@ main {
 }
 #emailAddress {
   @media all and (min-width: 1200px) {
-    width: 395px;
+    width: 91%;
   }
 }
 #telephone {
   @media all and (min-width: 1200px) {
-    width: 162px;
+    width: 19.5vw;
   }
 }
 
@@ -52,9 +52,10 @@ main {
   }
   @media all and (min-width: 1200px) {
     &__etel {
-      width: 65vw;
+      width: 68.5vw;
       display: grid;
       grid-template-columns: 2fr 1fr;
+      margin: 0;
     }
   }
 
