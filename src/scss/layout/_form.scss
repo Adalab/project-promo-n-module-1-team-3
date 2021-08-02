@@ -66,7 +66,7 @@ main {
   }
   @media all and (min-width: 1200px) {
     &__etel {
-      width: 68.5vw;
+      width: 100%;
       display: grid;
       grid-template-columns: 2fr 1fr;
       margin: 0;
