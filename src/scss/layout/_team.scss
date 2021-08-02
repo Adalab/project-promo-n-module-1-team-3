@@ -1,127 +1,161 @@
 /*****************************************equipo -- fortaleza y debilidades************************/
 
 .frase-presentacion {
-  color: black;
-  background-color: white;
-  opacity: 0.8;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: "Open Sans", sans-serif;
-  z-index: 998;
-  line-height: 1.5;
-  position: relative;
-  bottom: 50px;
-  margin-top: -10px;
-  padding: 5px;
-  text-align: center;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    z-index: 999;
+    line-height: 1.5;
+    position: relative;
+    bottom: 50px;
+    margin-top: -10px;
+    padding: 5px;
+    text-align: center;
 }
 
 .equipo {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  position: relative;
-  margin: 0%;
-  padding-left: 15px;
-  padding-right: 15px;
-  align-items: center;
-  text-align: center;
-  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    margin: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .equipo-titulo {
-  color: #14d9c4;
-  font-family: "Rubik", sans-serif;
-  text-transform: uppercase;
-  height: 45px;
-  font-size: 24px;
-  font-weight: 600;
-  margin-top: -50px;
+    color: #14d9c4;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -50px;
 }
 
 .equipo-parrafo {
-  color: #54585a;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  font-size: 16px;
-  padding: 5px;
+    color: #54585a;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 5px;
+    color: #14d9c4;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -50px;
+}
+
+.equipo-parrafo {
+    color: #54585a;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 5px;
 }
 
 .cuadrado {
-  background-color: white;
-  width: 35px;
-  height: 35px;
-  position: relative;
-  transform: translate(0, 10px) rotate(45deg);
-  margin: auto;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    transform: translate(0, 10px) rotate(45deg);
+    margin: auto;
 }
+
 
 /************************************fortaleza y debilidades ***************/
 
 .fortalezas-debilidades {
-  display: flex;
-  flex-direction: column;
-  background-color: #f1f1f1;
-  top: 50px;
-  margin: 0%;
-  padding: 55px 15px;
-  align-items: center;
-  text-align: center;
-  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    top: 50px;
+    margin: 0%;
+    padding: 55px 15px;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .fortalezas-titulo {
-  font-family: "Rubik", sans-serif;
-  color: #099d8d;
-  height: 45px;
-  font-size: 24px;
-  font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    color: #099d8d;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .fortalezas-debilidades-parrafo {
-  color: #54585a;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  font-size: 16px;
-  padding: 5px;
+    color: #54585a;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 5px;
 }
 
 .debilidades-titulo {
-  color: #099d8d;
-  font-family: "Rubik", sans-serif;
-  height: 45px;
-  font-size: 24px;
-  font-weight: 600;
-  margin-top: 45px;
+    color: #099d8d;
+    font-family: "Rubik", sans-serif;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 45px;
+    font-family: "Rubik", sans-serif;
+    color: #099d8d;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fortalezas-debilidades-parrafo {
+    color: #54585a;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.debilidades-titulo {
+    color: #099d8d;
+    font-family: "Rubik", sans-serif;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 45px;
 }
 
 @media (min-width: 768px) {
-  .fortalezas-debilidades {
-    display: flex;
-    flex-direction: row;
-    padding: 55px 45px;
-  }
-  .equipo {
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 45px;
-  }
-
-  .debilidades-titulo {
-    margin: 0;
-  }
-  .fortalezas {
-    width: 50%;
-    margin-right: 15px;
-  }
-  .debilidades {
-    width: 50%;
-    margin-left: 15px;
-  }
-
-  .frase-presentacion {
-    position: relative;
-    bottom: 98px;
-    left: -185px;
-  }
+    .fortalezas-debilidades {
+        display: flex;
+        flex-direction: row;
+        padding: 55px 45px;
+    }
+    .equipo {
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 45px;
+    }
+    .debilidades-titulo {
+        margin: 0;
+    }
+    .fortalezas {
+        width: 50%;
+        margin-right: 15px;
+    }
+    .debilidades {
+        width: 50%;
+        margin-left: 15px;
+    }
+    .frase-presentacion {
+        position: relative;
+    }
 }
