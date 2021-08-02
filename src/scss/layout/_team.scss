@@ -45,6 +45,21 @@
     line-height: 1.5;
     font-size: 16px;
     padding: 5px;
+    color: #14d9c4;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -50px;
+}
+
+.equipo-parrafo {
+    color: #54585a;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 5px;
 }
 
 .cuadrado {
@@ -72,6 +87,28 @@
 }
 
 .fortalezas-titulo {
+    font-family: "Rubik", sans-serif;
+    color: #099d8d;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fortalezas-debilidades-parrafo {
+    color: #54585a;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.debilidades-titulo {
+    color: #099d8d;
+    font-family: "Rubik", sans-serif;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 45px;
     font-family: "Rubik", sans-serif;
     color: #099d8d;
     height: 45px;

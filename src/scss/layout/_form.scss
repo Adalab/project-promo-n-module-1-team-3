@@ -1,6 +1,10 @@
 main {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .asterisk {
@@ -12,7 +16,16 @@ main {
   text-align: center;
   line-height: 24px;
   margin-top: 30px;
-  max-width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    width: 65vw;
+  }
+  @media all and (min-width: 1200px) {
+    max-width: 65vw;
+  }
   h2 {
     font-family: "Rubik", sans-serif;
     font-weight: bold;
@@ -53,7 +66,7 @@ main {
   }
   @media all and (min-width: 1200px) {
     &__etel {
-      width: 68.5vw;
+      width: 100%;
       display: grid;
       grid-template-columns: 2fr 1fr;
       margin: 0;
