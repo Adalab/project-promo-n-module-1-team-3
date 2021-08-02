@@ -42,11 +42,17 @@ main {
   }
 }
 #emailAddress {
+  @media all and (min-width: 768px) {
+    width: 90%;
+  }
   @media all and (min-width: 1200px) {
     width: 91%;
   }
 }
 #telephone {
+  @media all and (min-width: 768px) {
+    width: 83%;
+  }
   @media all and (min-width: 1200px) {
     width: 19.5vw;
   }
@@ -81,7 +87,6 @@ main {
   }
 
   &__label {
-    padding-left: 15px;
     line-height: 0.5;
     color: #54585a;
     &--items {
@@ -136,7 +141,6 @@ main {
       width: 65vw;
       display: flex;
       justify-content: flex-end;
-      margin-right: -18px;
     }
   }
 }
