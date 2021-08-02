@@ -51,10 +51,10 @@ main {
 }
 #telephone {
   @media all and (min-width: 768px) {
-    width: 83%;
+    width: 86%;
   }
   @media all and (min-width: 1200px) {
-    width: 19.5vw;
+    width: 93%;
   }
 }
 
@@ -67,9 +67,7 @@ main {
   align-items: center;
   margin-top: 58px;
   margin-bottom: 60px;
-  &__etel {
-    margin-left: 16px;
-  }
+
   @media all and (min-width: 768px) {
     &__etel {
       width: 100%;
